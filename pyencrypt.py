@@ -110,10 +110,10 @@ if not os.path.exists(opts['Keyfile']):
     quit()
 
 if ("Encrypt" in opts and "Keyfile" in opts):
-    print("Result: " + encrypt_message(opts['Keyfile'], opts['Encrypt']))
+    print(encrypt_message(opts['Keyfile'], opts['Encrypt']))
     quit()
 
 if ("Decrypt" in opts and "Keyfile" in opts):
-    print("Result: " + decrypt_message(opts['Keyfile'], opts['Decrypt']))
+    print(decrypt_message(opts['Keyfile'], opts['Decrypt']))
     quit()
 
