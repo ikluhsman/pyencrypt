@@ -1,5 +1,5 @@
 # pyencrypt
-Python encryption using the Fernet library. Script generates a key and encrypts / decrypts messages.
+Python script to generate keys and encrypt/decrypt messages with the Fernet library.
 
 usage:
 	Generate a private key file:
